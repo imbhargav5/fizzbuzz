@@ -1,5 +1,5 @@
 # fizzbuzz
-Fizz Buzz On liner in Javascript 
+Fizz Buzz One liner in Javascript 
 
     Array.apply(null, {length: 45})
     .map(Number.call,Number)
