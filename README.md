@@ -26,3 +26,9 @@ The "Fizz-Buzz test" is an interview question designed to help filter out the 99
               if(x%3===0){ return 'Fizz';}   
               return x;  
         });
+
+### Standard For loop
+
+    for(var i = 1 ; i<=100; i++){
+        console.log(i%15===0 ? 'FizzBuzz' : (i%5===0 ? 'Buzz' : (i%3 ===0 ? 'Fizz':i)));
+    }
